@@ -164,13 +164,7 @@ const Notifications = () => {
                     <span className="text-Grayishblue font-medium">
                       {item.action.text} {""}
                     </span>
-                    <span
-                      className={`text-Darkgrayishblue cursor-pointer hover:text-blue-800 ${
-                        item.action.event?.match("Chess Club")
-                          ? "text-Blue"
-                          : ""
-                      }`}
-                    >
+                    <span className="text-Darkgrayishblue cursor-pointer hover:text-Blue">
                       {item.action.event}
                     </span>
                     {!item.read && (
